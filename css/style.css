@@ -1,0 +1,83 @@
+/*Шрифты*/
+@font-face {
+    font-family: "OpenSans-Bold";
+    src: url(../fonts/OpenSans-Bold.ttf)
+}
+@font-face {
+    font-family: "OpenSans-Regular";
+    src: url(../fonts/OpenSans-Regular.ttf)
+}
+@font-face {
+    font-family: "OpenSans-Semibold";
+    src: url(../fonts/OpenSans-Semibold.ttf)
+}
+@font-face {
+    font-family: "Poppins-Bold";
+    src: url(../fonts/Poppins-Bold.ttf)
+}
+@font-face {
+    font-family: "Poppins-SemiBold";
+    src: url(../fonts/Poppins-SemiBold.ttf)
+}
+
+
+
+/*общие стили*/
+a {
+    text-decoration: none;
+}
+/*она записала стиль для p в body*/
+p {
+    font-family: "OpenSans-Regular", sans-serif;
+    color: #7581a1;
+    font-size: 16px;
+    line-height: 26px;
+}
+
+
+
+/*header*/
+.nav {
+    font-family: "OpenSans-Bold", sans-serif;
+    color: #6e7ea9;
+    font-size: 12px;
+    text-transform: uppercase;
+}
+h1 {
+    font-family: "Poppins-SemiBold", sans-serif;
+    color: #192b59;
+    font-size: 80px;
+    line-height: 90px;
+}
+.btn-free {
+    font-family: "Poppins-Bold", sans-serif;
+    color: #fff;
+    font-size: 12px;
+    text-transform: uppercase;
+}
+/*features*/
+/*здесь h2 селектор*/
+.grid h2{
+    font-family: "Poppins-SemiBold", sans-serif;
+    color: #192b59;
+    font-size: 40px;
+    line-height: 50px;
+}
+.grid h2 span {
+    font-family: "Poppins-Bold", sans-serif;
+    color: #1085e4;
+    font-size: 18px;
+    display: block;
+    line-height: 90px;
+} 
+.grid-item h3 {
+    font-family: "Poppins-SemiBold", sans-serif;
+    color: #192b59;
+    font-size: 20px;
+}
+.grid-item a {
+    font-family: "OpenSans-Semibold", sans-serif;
+    color: #1085e4;
+    font-size: 14px;
+    line-height: 26px;
+}
