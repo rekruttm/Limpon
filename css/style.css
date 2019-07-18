@@ -26,6 +26,9 @@
 a {
     text-decoration: none;
 }
+ul {
+    list-style: none;
+}
 /*она записала стиль для p в body*/
 p {
     font-family: "OpenSans-Regular", sans-serif;
@@ -36,12 +39,92 @@ p {
 
 
 
+/*кнопки*/
+.btn-primary {
+    font-family: "Poppins-Bold", sans-serif;
+    color: #fff;
+    background-color: #1085e4;
+    font-size: 12px;
+    text-transform: uppercase;
+    padding: 20px 41px;
+    letter-spacing: 0.2em;
+    border-radius: 30px;
+    border: 1px solid #1085e4;
+}
+.btn-free {
+    padding: 21px 51px;
+}
+.btn-subscribe {
+    font-size: 14px;
+    padding: 16px 43.2px;
+    cursor: pointer;
+}
+.btn-subscribe2 {
+    padding: 22.5px 63.1px;
+    cursor: pointer;
+}
+.btn-feauters4 {
+    padding: 20px 65px;
+}
+.btn-choose {
+    padding: 19.5px 62px;
+    border: 2px solid #1085e4;
+}
+.btn-primary:hover {
+    background-color: #192b59;
+    border: 1px solid #12224b;
+}
+.btn-choose:hover {
+    border: 2px solid #107ed8;
+    color: #107ed8;
+    background-color: transparent;
+}
+.btn-secondary {
+    font-family: "Poppins-Bold", sans-serif;
+    color: #7e8bae;
+    background-color: #cbdbe8;
+    font-size: 12px;
+    text-transform: uppercase;
+    padding: 21px 42px;
+    border-radius: 30px;
+    letter-spacing: 0.2em;
+}
+.btn-secondary:hover {
+    background-color: #1085e4;
+    color: #fff;
+}
+.btn-group a + a {
+    margin-left: 15px;
+}
+.btn-choose2 {
+    font-family: "Poppins-Bold", sans-serif;
+    color: #8085b1;
+    background-color: transparent;
+    font-size: 12px;
+    text-transform: uppercase;
+    padding: 20px 61px;
+    border-radius: 30px;
+    letter-spacing: 0.2em;
+    border: 2px solid #dce1e5;
+}
+.btn-choose2:hover {
+    border: 2px solid #1085e4;
+    color: #1085e4;
+}
+
+
 /*header*/
 .nav {
     font-family: "OpenSans-Bold", sans-serif;
     color: #6e7ea9;
     font-size: 12px;
     text-transform: uppercase;
+    margin: 0;
+    padding: 0;
+    letter-spacing: 0.2em;
+}
+.nav li:hover {
+    color: #1085e4;
 }
 h1 {
     font-family: "Poppins-SemiBold", sans-serif;
@@ -49,14 +132,8 @@ h1 {
     font-size: 80px;
     line-height: 90px;
 }
-.btn-free {
-    font-family: "Poppins-Bold", sans-serif;
-    color: #fff;
-    font-size: 12px;
-    text-transform: uppercase;
-}
+
 /*features*/
-/*здесь h2 селектор*/
 .grid h2{
     font-family: "Poppins-SemiBold", sans-serif;
     color: #192b59;

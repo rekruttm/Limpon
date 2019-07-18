@@ -4,27 +4,41 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="css/normalize.min.css">
     <link rel="stylesheet" href="css/style.css">
     <title>Limpon</title>
+    <link rel="apple-touch-icon" sizes="57x57" href="img/favicon/apple-touch-icon-57x57.png">
+    <link rel="apple-touch-icon" sizes="60x60" href="img/favicon/apple-touch-icon-60x60.png">
+    <link rel="apple-touch-icon" sizes="72x72" href="img/favicon/apple-touch-icon-72x72.png">
+    <link rel="apple-touch-icon" sizes="76x76" href="img/favicon/apple-touch-icon-76x76.png">
+    <link rel="apple-touch-icon" sizes="114x114" href="img/favicon/apple-touch-icon-114x114.png">
+    <link rel="apple-touch-icon" sizes="120x120" href="img/favicon/apple-touch-icon-120x120.png">
+    <link rel="apple-touch-icon" sizes="144x144" href="img/favicon/apple-touch-icon-144x144.png">
+    <link rel="apple-touch-icon" sizes="152x152" href="img/favicon/apple-touch-icon-152x152.png">
+    <link rel="apple-touch-icon" sizes="180x180" href="img/favicon/apple-touch-icon-180x180.png">
+    <link rel="icon" type="image/png" href="img/favicon/favicon-32x32.png" sizes="32x32">
+    <link rel="icon" type="image/png" href="img/favicon/android-chrome-192x192.png" sizes="192x192">
+    <link rel="icon" type="image/png" href="img/favicon/favicon-96x96.png" sizes="96x96">
+    <link rel="icon" type="image/png" href="img/favicon/favicon-16x16.png" sizes="16x16">
 </head>
 <body>
     <header>
         <div>
             <a href=""></a>
             <ul class="nav">
-                <li>Home</li>
-                <li>Features</li>
+                <li><Home</li>
+                <li>features</li>
                 <li>Video</li>
                 <li>Screens</li>
                 <li>Pricing</li>
                 <li>team</li>
-                <li><a href="" class="btn-free">Free Trail</a></li>
+                <li><a href="" class="btn-primary btn-free">Free Trail</a></li>
             </ul>
         </div>
         <h1>Best Software  Landingpage</h1>
-        <div>
-            <a href="">get started now</a>
-            <a href="">learn more</a>
+        <div class="btn-group">
+            <a class="btn-primary" href="">get started now</a>
+            <a class="btn-secondary" href="">learn more</a>
         </div>
     </header>
     <section class="sponsors">
@@ -87,7 +101,7 @@
                 <h2><span>Subscribe</span>Signup For A Trail</h2>
                 <p>Create your free account now & get 30 days free trail No credit card required</p>
                 <input type="email" placeholder="Enter your email address">
-                <button type="submit">Subscribe</button>                
+                <button type="submit" class="btn-primary btn-subscribe">Subscribe</button>                
             </div>
         </div>
     </section>
@@ -136,7 +150,7 @@
                 <div></div>
                 <h2>Limpon Is Suitable For Anytype LandingPage</h2>
                 <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum.</p>
-                <a href="">get started now</a>
+                <a href="" class="btn-primary">get started now</a>
             </div>
         </div>
     </section>
@@ -147,7 +161,7 @@
                 <div></div>
                 <h2>Easy To Etid & Very Easily Control</h2>
                 <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum.</p>
-                <a href="">learn more</a>
+                <a href="" class="btn-primary btn-feauters4">learn more</a>
             </div>
         </div>
     </section>
@@ -157,90 +171,111 @@
     </section>
     <section class="clients">
         <h2><span>testimonials</span>Our Happy Clients</h2>
-        <div>
-            <p>It is a long established fact that a read  her will be distracted by the readable content of a page when looking.</p>
+        <div class="box-clients">
             <div>
-                <h3>Rolin B. Mirano <span>ceo, uihub</span></h3>
+            <p>It is a long established fact that a read  her will be distracted by the readable content of a page when looking.</p>
+                <div>
+                    <p class="name">Rolin B. Mirano</p>
+                    <p class="position">ceo, uihub</p>
+                </div>
             </div>
-        </div>
-        <div>
-            <p>It is a long established fact that a read  her will be distracted by the readable content of a page when looking.</p>
             <div>
-                <h3>Rolin B. Mirano <span>ceo, uihub</span></h3>
+            <p>It is a long established fact that a read  her will be distracted by the readable content of a page when looking.</p>
+                <div>
+                    <p class="name">Rolin B. Mirano</p>
+                    <p class="position">ceo, uihub</p>
+                </div>
             </div>
-        </div>
-        <div>
-            <p>It is a long established fact that a read  her will be distracted by the readable content of a page when looking.</p>
             <div>
-                <h3>Rolin B. Mirano <span>ceo, uihub</span></h3>
+            <p>It is a long established fact that a read  her will be distracted by the readable content of a page when looking.</p>
+                <div>
+                    <p class="name">Rolin B. Mirano</p>
+                    <p class="position">ceo, uihub</p>
+                </div>
             </div>
         </div>
     </section>
     <section class="prising">
+        <!--здесь она <p><strong>starter</p></strong> и 90 не взяла и 350 не обернула в span-->
         <h2><span>our plans</span>Pricing Plans</h2>
-        <div>
-            <h3><span>Free</span>starter</h3>
-            <p>Unlimited users Active
-                    1 GB Bandwidth Speed
-                    256 MB Memory Card
-                    Free Domain Name
-                    Free Hosting Name
-                    24x7 Online Support</p>
-            <a href=""></a>
-        </div>
-        <div>
-            <h3><span>$90</span><span>/mo</span><span>starter</span></h3>
-            <p>Unlimited users Active
-                    1 GB Bandwidth Speed
-                    256 MB Memory Card
-                    Free Domain Name
-                    Free Hosting Name
-                    24x7 Online Support</p>
-            <a href=""></a>
-        </div>
-        <div>
-            <h3><span>$350</span><span>mo</span><span>starter</span></h3>
-            <p>Unlimited users Active
-                    1 GB Bandwidth Speed
-                    256 MB Memory Card
-                    Free Domain Name
-                    Free Hosting Name
-                    24x7 Online Support</p>
-            <a href=""></a>
+        <div class="plans">
+            <div class="plan">
+                <h3>Free</span>starter</span></h3>
+                <ul>
+                    <li>Unlimited users Active</li>
+                    <li>1 GB Bandwidth Speed</li>
+                    <li>256 MB Memory Card</li>
+                    <li>Free Domain Name</li>
+                    <li>Free Hosting Name</li>
+                    <li>24x7 Online Support</li>
+                </ul>
+                <a href="" class="btn-choose2">choose plan</a>
+            </div>
+            <div class="plan active">
+                <h3><span>$</span><span>90</span><span>/mo</span><span>starter</span></h3>
+                <ul>
+                    <li>Unlimited users Active</li>
+                    <li>1 GB Bandwidth Speed</li>
+                    <li>256 MB Memory Card</li>
+                    <li>Free Domain Name</li>
+                    <li>Free Hosting Name</li>
+                    <li>24x7 Online Support</li>
+                </ul>
+                <a href="" class="btn-primary btn-choose">choose plan</a>
+            </div>
+            <div class="plan">
+                <h3><span>$350</span><span>mo</span><span>starter</span></h3>
+                <ul>
+                    <li>Unlimited users Active</li>
+                    <li>1 GB Bandwidth Speed</li>
+                    <li>256 MB Memory Card</li>
+                    <li>Free Domain Name</li>
+                    <li>Free Hosting Name</li>
+                    <li>24x7 Online Support</li>
+                </ul>
+                <a href="" class="btn-choose2">choose plan</a>
+            </div>
         </div>
     </section>
     <section class="team">
+        <!--здесь она our team не в span-->
         <h2><span>angels</span><span>Our Team</span></h2>
-        <div>
-            <h3><span>founder</span>Ricardo T. Obrien</h3>
-            <div></div>
-        </div>
-        <div>
-            <h3><span>ceo</span>Alberto Del Rio</h3>
-            <div></div>
-            <div></div>
-            <div></div>
-            <div></div>
-        </div>
-        <div>
-            <h3><span>designer</span>Thomas Alva Adison</h3>
-            <div></div>
+        <div class="box-team">
+            <div>
+                <p>founder</p>
+                <p>Ricardo T. Obrien</p>
+            </div>
+            <div>
+                <p>ceo</p>
+                <p>Alberto Del Rio</p>
+            </div>
+            <div>
+                <p>designer</p>
+                <p>Thomas Alva Adison</p>
+            </div>
         </div>
     </section>
     <section class="contacts">
+        <!--здесь button не доделан-->
         <h2>Start Your Free Trail No Need Credit Card.</h2>
-        <input type="text" name="" id="">
-        <input type="text" name="" id="">
-        <textarea name="" id="" cols="30" rows="10"></textarea>
-        <a href=""></a>
+        <form action="">
+            <input type="text" name="" placeholder="Enter your name here">
+            <input type="email" name="" placeholder="Enter your email here">
+            <textarea name="textMessage" placeholder="Enter your message here"></textarea>
+            <button type="submit" class="btn-primary btn-subscribe2"><span></span>submit now</button>
+        </form>
     </section>
     <footer>
-        <p>Made With Love & Copyright By - <span>limpon</span></p>
-        <div></div>
-        <div></div>
-        <div></div>
-        <div></div>
-        <div></div>
+        <div>
+            <p>Made With Love & Copyright By - <a href="">limpon</a></p>
+            <ul class="social">
+                <li><a href="" target="_blank"></a></li>
+                <li><a href="" target="_blank"></a></li>
+                <li><a href="" target="_blank"></a></li>
+                <li><a href="" target="_blank"></a></li>
+                <li><a href="" target="_blank"></a></li>
+            </ul>
+        </div>
     </footer>
 </body>
 </html>
