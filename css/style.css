@@ -23,11 +23,16 @@
 
 
 /*общие стили*/
+.wrap {
+    max-width: 1110px;
+    margin: 0 auto;
+}
 a {
     text-decoration: none;
 }
 ul {
     list-style: none;
+    padding-left: 0;
 }
 /*она записала стиль для p в body*/
 p {
@@ -36,8 +41,46 @@ p {
     font-size: 16px;
     line-height: 26px;
 }
-
-
+.title1-h2 {
+    font-family: "Poppins-SemiBold", sans-serif;
+    color: #192b59;
+    font-size: 50px;
+    text-align: center;
+    letter-spacing: -0.03em;
+    text-transform: capitalize;
+    max-width: 521px;
+    line-height: 60px;
+    margin: 0 auto;
+}
+.title1-h2 span {
+    text-transform: uppercase;
+    font-family: "Poppins-Bold", sans-serif;
+    color: #1085e4;
+    font-size: 16px;
+    letter-spacing: 0.2em;
+    margin-bottom: -6px;
+    display: block;
+}
+.title2-h2 {
+    font-family: "Poppins-SemiBold", sans-serif;
+    color: #192b59;
+    font-size: 40px;
+    text-align: center;
+    letter-spacing: -0.03em;
+    text-transform: capitalize;
+    max-width: 521px;
+    line-height: 60px;
+    margin: 0 auto;
+}
+.title2-h2 span {
+    text-transform: uppercase;
+    font-family: "Poppins-Bold", sans-serif;
+    color: #1085e4;
+    font-size: 18px;
+    letter-spacing: 0.2em;
+    margin-bottom: -6px;
+    display: block;
+}
 
 /*кнопки*/
 .btn-primary {
@@ -116,14 +159,20 @@ p {
 /*header*/
 .nav {
     font-family: "OpenSans-Bold", sans-serif;
-    color: #6e7ea9;
     font-size: 12px;
     text-transform: uppercase;
     margin: 0;
     padding: 0;
     letter-spacing: 0.2em;
+    display: flex;
 }
-.nav li:hover {
+.nav > li {
+    padding: 0 15px;
+}
+.nav-item {
+    color: #6e7ea9;
+}
+.nav-item:hover {
     color: #1085e4;
 }
 h1 {
@@ -131,30 +180,162 @@ h1 {
     color: #192b59;
     font-size: 80px;
     line-height: 90px;
+    letter-spacing: -0.03em;
+    max-width: 540px;
+    margin-bottom: 65px;
 }
 
 /*features*/
-.grid h2{
-    font-family: "Poppins-SemiBold", sans-serif;
-    color: #192b59;
-    font-size: 40px;
+.grid .title2-h2 {
+    text-align: left;
     line-height: 50px;
+    max-width: 344px;
 }
-.grid h2 span {
-    font-family: "Poppins-Bold", sans-serif;
-    color: #1085e4;
-    font-size: 18px;
-    display: block;
-    line-height: 90px;
-} 
+.grid .title2-h2 span {
+    margin-bottom: 0px;
+}
+margin-bottom: -10px;
 .grid-item h3 {
     font-family: "Poppins-SemiBold", sans-serif;
     color: #192b59;
     font-size: 20px;
+    letter-spacing: -0.03em;
 }
 .grid-item a {
     font-family: "OpenSans-Semibold", sans-serif;
     color: #1085e4;
     font-size: 14px;
-    line-height: 26px;
+    letter-spacing: 0em;
+}
+
+
+/*funfacts*/
+.funfacts {
+    background: #edf6ff;
+    padding: 97px 0 102px;
+}
+.fun-list {
+    display: flex;
+    justify-content: space-around;
+}
+.fun-list li {
+    color: #1085e4;
+    font-family: "Poppins-Bold", sans-serif;
+    font-size: 12px;
+    letter-spacing: 0.2em;
+    text-transform: uppercase;
+    text-align: center;
+}
+.fun-list span {
+    display: block;
+    color: #bacbdc;
+    font-family: "Poppins-SemiBold", sans-serif;
+    font-size: 60px;
+    letter-spacing: -0.03em;
+    margin-bottom: 5px;
+    margin-top: 40px;
+}
+/*screenshots*/
+.screenshots {
+    background: #edf6ff;
+    padding: 98px 0 0 0;
+    text-align: center;
+}
+.screenshots img {
+    margin-top: 64px;
+    margin-bottom: -4px;
+}
+/*здесь отступ - потому что у картинки появился небольшой отступ с низу*/
+/*prising*/
+.prising {
+    
+}
+.plans {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 75px;
+    text-align: center;
+}
+.plan {
+    flex-basis: 31.5%;
+    padding: 65px 0 102px 0;
+}
+.active {
+    background-color: #192b59;
+}
+.planbg {
+    background: #f5faff url(../img/pricing/planbg.png) no-repeat right top;
+}
+.plan ul {
+    font-size: 14px;
+    font-family: "OpenSans-Regular", sans-serif;
+    color: #8085b1;
+    line-height: 40px;
+    margin-bottom: 58px;
+    margin-top: 33px;
+}
+.active {
+    background-color: #192b59;
+    color: #fff;
+}
+.title1-h3 {
+    font-family: "Poppins-SemiBold", sans-serif;
+    font-size: 70px;
+    letter-spacing: -0.03em;
+    color: #000958;
+    text-transform: capitalize;
+    margin: 0;
+}
+.title1-h3 span {
+    font-family: "Poppins-Bold", sans-serif;
+    display: block;
+    color: hsl(209, 100%, 50%);
+    letter-spacing: 0.2em;
+    font-size: 14px;
+    text-transform: uppercase;
+    margin-top: 11px;
+}
+.title2-h3 {
+    font-size: 70px;
+    font-family: "Poppins-SemiBold", sans-serif;
+    letter-spacing: -0.03em;
+    margin: 0;
+    color: #fff;
+}
+.title2-h3 span {
+    font-size: 20px;
+}
+.title2-h3 span + span {
+    color: #7b8ab2;
+}
+.title2-h3 span + span + span {
+    display: block;
+    font-family: "Poppins-Bold", sans-serif;
+    letter-spacing: 0.2em;
+    color: #fff;
+    text-transform: uppercase;
+    font-size: 14px;
+    margin-top: 11px;
+}
+.title3-h3 {
+    font-size: 70px;
+    font-family: "Poppins-SemiBold", sans-serif;
+    letter-spacing: -0.03em;
+    margin: 0;
+    color: #192b59;
+}
+.title3-h3 span {
+    font-size: 20px;
+}
+.title3-h3 span + span {
+    color: #7b8ab2;
+}
+.title3-h3 span + span + span {
+    display: block;
+    font-family: "Poppins-Bold", sans-serif;
+    letter-spacing: 0.2em;
+    color: #0084ff;
+    text-transform: uppercase;
+    font-size: 14px;
+    margin-top: 11px;
 }
